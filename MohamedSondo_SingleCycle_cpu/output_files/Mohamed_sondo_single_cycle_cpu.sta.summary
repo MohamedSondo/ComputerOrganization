@@ -1,0 +1,117 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'sondo_mohamed_alu_control:inst8|ALUCtr[0]'
+Slack : -34.727
+TNS   : -764.009
+
+Type  : Slow Model Setup 'clock'
+Slack : -5.808
+TNS   : -1737.860
+
+Type  : Slow Model Setup 'sondo_mohamed_control:inst13|ALUOp[0]'
+Slack : -5.023
+TNS   : -19.327
+
+Type  : Slow Model Setup 'sondo_mohamed_pc:inst3|out_address_sig[2]'
+Slack : -4.800
+TNS   : -18.435
+
+Type  : Slow Model Hold 'sondo_mohamed_alu_control:inst8|ALUCtr[0]'
+Slack : -2.453
+TNS   : -60.779
+
+Type  : Slow Model Hold 'sondo_mohamed_pc:inst3|out_address_sig[2]'
+Slack : -2.101
+TNS   : -6.924
+
+Type  : Slow Model Hold 'sondo_mohamed_control:inst13|ALUOp[0]'
+Slack : -1.536
+TNS   : -4.664
+
+Type  : Slow Model Hold 'clock'
+Slack : -1.103
+TNS   : -6.792
+
+Type  : Slow Model Recovery 'sondo_mohamed_pc:inst3|out_address_sig[2]'
+Slack : -2.577
+TNS   : -4.760
+
+Type  : Slow Model Removal 'sondo_mohamed_pc:inst3|out_address_sig[2]'
+Slack : -3.127
+TNS   : -6.083
+
+Type  : Slow Model Minimum Pulse Width 'clock'
+Slack : -1.380
+TNS   : -351.380
+
+Type  : Slow Model Minimum Pulse Width 'sondo_mohamed_pc:inst3|out_address_sig[2]'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'sondo_mohamed_alu_control:inst8|ALUCtr[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'sondo_mohamed_control:inst13|ALUOp[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'sondo_mohamed_alu_control:inst8|ALUCtr[0]'
+Slack : -14.601
+TNS   : -316.612
+
+Type  : Fast Model Setup 'sondo_mohamed_control:inst13|ALUOp[0]'
+Slack : -2.289
+TNS   : -8.803
+
+Type  : Fast Model Setup 'clock'
+Slack : -2.269
+TNS   : -626.584
+
+Type  : Fast Model Setup 'sondo_mohamed_pc:inst3|out_address_sig[2]'
+Slack : -2.163
+TNS   : -8.299
+
+Type  : Fast Model Hold 'sondo_mohamed_alu_control:inst8|ALUCtr[0]'
+Slack : -1.441
+TNS   : -37.507
+
+Type  : Fast Model Hold 'sondo_mohamed_pc:inst3|out_address_sig[2]'
+Slack : -0.985
+TNS   : -3.235
+
+Type  : Fast Model Hold 'clock'
+Slack : -0.829
+TNS   : -27.682
+
+Type  : Fast Model Hold 'sondo_mohamed_control:inst13|ALUOp[0]'
+Slack : -0.680
+TNS   : -2.015
+
+Type  : Fast Model Recovery 'sondo_mohamed_pc:inst3|out_address_sig[2]'
+Slack : -0.827
+TNS   : -1.457
+
+Type  : Fast Model Removal 'sondo_mohamed_pc:inst3|out_address_sig[2]'
+Slack : -1.743
+TNS   : -3.412
+
+Type  : Fast Model Minimum Pulse Width 'clock'
+Slack : -1.380
+TNS   : -351.380
+
+Type  : Fast Model Minimum Pulse Width 'sondo_mohamed_pc:inst3|out_address_sig[2]'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'sondo_mohamed_alu_control:inst8|ALUCtr[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'sondo_mohamed_control:inst13|ALUOp[0]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
